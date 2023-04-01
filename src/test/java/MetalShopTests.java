@@ -158,7 +158,7 @@ public class MetalShopTests {
         inputSubject.sendKeys("Test");
         WebElement inputTextMsg = driverChrome.findElement(By.name("your-message"));
         inputTextMsg.sendKeys("Test strony");
-        
+
         driverChrome.findElement(By.name("your-subject")).sendKeys(Keys.ENTER);
 
         WebDriverWait wait = new WebDriverWait(driverChrome, Duration.ofSeconds(5));
@@ -194,6 +194,7 @@ public class MetalShopTests {
 
     }
 
+    //to mój pierwszy commit
 
 
 
